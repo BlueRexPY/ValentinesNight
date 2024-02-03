@@ -1,0 +1,28 @@
+{
+  "name": "valentines-night",
+  "displayName": "Valentine's Night",
+  "description": "🍷 Cocktail of Passionate Heart Syrup, Enchanted Rose Petal Extract, Cupid's Arrow Dust, Sweet Strawberry Nectar, Love-Struck Garnish. Bon appetit!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "license": "MIT",
+  "publisher": "RuslanRystsov",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlueRexPY/ValentinesNight"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Valentine's Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/valentines-night-color-theme.json"
+      }
+    ]
+  }
+}
